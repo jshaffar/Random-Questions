@@ -1,1 +1,1 @@
-4.553794860839844e-05
+2.7928352355957032e-06 is the average number of seconds it takes python to print Hello World! with 1000 iterations.
