@@ -1,5 +1,5 @@
 # Random-Questions
-Sometimes I just have a question i want to answer with actual data rather than just making stuff up like I normally do, so this seems like a good place to do it.
+Sometimes I just have a question i want to answer with actual data rather than just making stuff up like I normally do, so this seems like a good place to do it. Usually do this if I have free time and wanna learn some sort of programming skill i.e web scraping 
 
 ## Computational:
 Q) How long does it take my computer to print "Hello World!"? <br>
