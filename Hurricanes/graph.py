@@ -16,7 +16,7 @@ plt.show()
 # https://wikitable2csv.ggor.de/ for data conversion
 #https://stackoverflow.com/questions/1574088/plotting-time-in-python-with-matplotlib @later
 
-LOWER_BOUND_YEAR = 1850
+LOWER_BOUND_YEAR = 1924
 UPPER_BOUND_YEAR = 2020
 
 def find_year_as_obj(str_date):
@@ -91,17 +91,21 @@ def get_data(direc):
 
 def graph_data(data):
     plt.figure()
-    plt.plot(data[0], color='green')
-    plt.plot(data[1], color='purple')
-    plt.plot(data[2], color='brown')
+    x_vals = list(range(LOWER_BOUND_YEAR, UPPER_BOUND_YEAR + 1))
+    plt.plot(x_vals, data[0], color='green', label='Category 1')
+    plt.plot(x_vals, data[1], color='purple', label='Category 2')
+    plt.plot(x_vals, data[2], color='brown', label='Category 3')
     #plt.plot(data[3], color='red') @todo actually do cat 4 parsing
-    plt.plot(data[3], color='blue')
-
+    plt.plot(x_vals, data[4], color='blue', label='Category 5')
+    plt.legend()
+    plt.title('Hurricanes Seperated by Category')
+    plt.xlabel('Time')
+    plt.ylabel('Frequency')
     plt.show()
     dA = 0
     
 
 
 if __name__ == "__main__":
-    data = get_data('Hurricanes/Data')
+    data = get_data('Data')
     graph_data(data)
