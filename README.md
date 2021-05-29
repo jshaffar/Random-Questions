@@ -10,9 +10,9 @@ Q) Which date has most listed deaths on Wikipedia (This includes only famous peo
 A) On January 4 there has been 349 listed wikipedia deaths between 1997 and 2019
 
 ## Hurricanes:
-Q) Is there any notable trends about hurricanes from the 1920's to now, among category 1-3 and 5 hurricanes (4 was poorly formateed)
-A) Overall there is no major trends. There does seem to be an increase in major hurricanes since the 1980's, although its not as massive as I thought.
-<img src=“https://github.com/jshaffar/Random-Questions/tree/main/Hurricanes/Graphs/graph_cats1-3and5.png”>
+Q) Is there any notable trends about hurricanes from the 1920's to now, among category 1-3 and 5 hurricanes (4 was poorly formated) <br>
+A) Overall there is no major trends. There does seem to be an increase in major hurricanes since the 1980's, although its not as massive as I thought. <br>
+![alt text](https://github.com/jshaffar/Random-Questions/blob/main/Hurricanes/Graphs/graph_cats1-3and5.png)
 
 
 
